@@ -1,0 +1,100 @@
+body {
+    background-image: url("https://wallpaperaccess.com/full/17515.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(66, 148, 255);
+    width: 100%;
+}
+
+nav a{
+    padding: 10px 15px;
+    color: rgb(255, 255, 255);
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: rgb(112, 228, 131);
+}
+
+.banner{
+    float: left;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:xx-large;
+}
+.city{  
+    color:rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    place-items: center;
+    display: grid;
+    margin: auto;
+}
+.title{
+  color: rgb(250, 250, 250);
+  font-family:fantasy;
+  font-size: 75px;
+  height: 200px;
+  width: 400px;
+  position: absolute;
+  top: 22%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+.isiartikel{
+    color: rgb(66, 148, 255);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  background-color: white;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.isiartikel1{
+    color: rgb(66, 148, 255);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  background-color: white;
+  padding: 10px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.isiartikel2{
+    color: rgb(66, 148, 255);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}      
+.foto1{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+.foto2{
+    position: absolute;
+    width: 100%;
+    top: 35%;
+    left: 82.5%;
+    transform: translate(-50%, -50%);
+}
+

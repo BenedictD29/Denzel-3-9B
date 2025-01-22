@@ -1,0 +1,103 @@
+body {
+    background-image: url("https://wallpaperaccess.com/full/17515.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(66, 148, 255);
+    width: 100%;
+}
+
+nav a{
+    padding: 10px 15px;
+    color: rgb(255, 255, 255);
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: rgb(112, 228, 131);
+}
+.banner{
+    float: left;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:xx-large;
+}
+.city{  
+    color:rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    place-items: center;
+    display: grid;
+    margin: auto;
+}
+.name{  
+  color:rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.email{  
+  color:rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.subject{  
+  color:rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+  color: rgb(66, 148, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+}
+p{
+  color:  rgb(112, 228, 131);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+  
+  input[type=text],textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: rgb(66, 148, 255);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(112, 228, 131);
+  }
+  
+
+  .container {
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    padding: 10px;
+  }
+  
+  .kolom {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

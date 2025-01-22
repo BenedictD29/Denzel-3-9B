@@ -1,0 +1,56 @@
+body {
+    background-image: url("https://wallpaperaccess.com/full/17515.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(1px);
+    height: 100vh;
+    margin: 0;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(66, 148, 255);
+    width: 100%;
+}
+
+nav a{
+    padding: 10px 15px;
+    color: rgb(255, 255, 255);
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: rgb(112, 228, 131);
+}
+.banner{
+    float: left;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:xx-large;
+}
+.fk{
+    color: rgb(66, 148, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  place-items: center;
+  display: grid;
+  font-size: 50px;
+}
+main{
+  font-size: 15px;
+  text-decoration: none;
+}
+.photo{
+  display: flex;
+  margin: auto;
+  gap: 30px;
+  width: 60%;
+}
+.photo1{
+  display: flex;
+  margin: auto;
+  gap: 30px;
+  width: 60%;
+}
