@@ -6,6 +6,32 @@ body {
     height: 100vh;
     margin: 0;
 }
+
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(66, 148, 255);
+    width: 100%;
+}
+
+nav a{
+    padding: 10px 15px;
+    color: rgb(255, 255, 255);
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: rgb(112, 228, 131);
+}
+
+.banner{
+    float: left;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:xx-large;
+}
 .wrapper{
     position: absolute;
     width: 100%;
@@ -80,31 +106,6 @@ body {
         transform: scale(1.5) translateY(-100px) rotate(360deg);
         opacity:0;
     }
-}
-header{
-    display:flex;
-    justify-content: space-between;
-    background-color: rgb(66, 148, 255);
-    width: 100%;
-}
-
-nav a{
-    padding: 10px 15px;
-    color: rgb(255, 255, 255);
-    float: right;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: larger;
-    text-decoration: none;
-}
-nav a:hover{
-    background-color: rgb(112, 228, 131);
-}
-
-.banner{
-    float: left;
-    color:white;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size:xx-large;
 }
 .city{  
     color:rgb(255, 255, 255);
